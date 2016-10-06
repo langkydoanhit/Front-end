@@ -1,0 +1,182 @@
+@font-face{
+	font-family: bebasneue ;
+	src:url("../fonts/BebasNeue.otf");
+}
+@font-face{
+	font-family: helveticane;
+	src:url("../fonts/HelveticaNeue-BoldItalic.otf");
+}
+.cleafix{
+	overflow:hidden; /*chong tran*/
+	clear: both;
+}
+#main{
+	width: 940px;
+	margin : 0 auto ;
+}
+header{
+	padding:20px 0 5px;
+}
+header h1 {
+	width: 200px;
+	float: left;
+}
+a{
+	text-decoration: none;
+}
+header h1 a{ /*logo*/
+	font-family: bebasneue ;
+	color: #f3af9d;
+	font-size: 36px ;
+	padding: 20px;
+	/*font-weight:bold;*/
+
+}
+header nav{
+	float: right;
+	padding:15px 0;
+}
+nav ul li {
+	float: left;
+	
+}
+header nav ul li a{
+	padding-left: 30px;
+	font-size : 16px;
+	font-family: bebasneue;
+	color: #b9b9b9;
+	font-weight: bold;
+}
+.selectet{
+	color: #e8663c;
+}
+header nav ul li a:hover{
+	color: #e8663c;
+	font-weight: bold;
+}
+.itemimg{
+	float: left;
+	margin-right: 20px;
+}
+.newsbox{
+	padding: 20px 0 ;
+}
+.box_img{
+	padding: 20px 0 ;
+}
+.itemnews:last-child,
+.itemimg:last-child{ /* cho cai cuoi cung nam ngang hang voi cac the con lai  */
+	margin-right: 0px;
+}
+.itemnews{
+	float: left;
+	width: 300px ;
+	margin-right: 20px;
+}
+.itemnews h3{
+	color: #e8663c;
+	font-family: baseline; ;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-left: 70px;
+	line-height: 24px;
+	padding-bottom: 40px;
+
+}
+.h3_reset{
+	background-image: url("images/h1.png");
+	background-repeat: no-repeat;
+}
+.itemnews p{
+	font-family: helveticane;
+	font-size: 12px;
+	line-height: 18px;
+	color:  #414141;
+}
+.css_2d{
+	padding: 10px 150px;
+	width: 40px;
+	font-family: helveticane;
+	margin-top: 20px;
+	color: #fdfdfd;
+	padding: 14px;
+    background-color: #e8663c;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 4s;
+    display: block;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+.box_recent{
+	float: left;
+	padding: 20px 0 ;
+}
+.avata{
+	float: left;
+	margin-right: 20px;
+}
+.avata:last-child{ /* cho cai cuoi cung nam ngang hang voi cac the con lai  */
+	margin-right: 0px;
+	border-bottom: 1px #dbdbdb solid ;
+}
+.heading{
+	background: url("../images/recent_post.png");
+	margin: 20px 0 ;
+	height: 20px;
+	line-height: 20px;
+}
+.heading span{
+	color: #e8603c ;
+	font-family: bebasneue ;
+	font-size:  18px ;
+	font-weight: bold;
+	display: block;
+	width: 200px;
+	background-color: #ffffff;
+}
+.avata h2{
+	margin-top: 10px;
+	text-transform: uppercase;
+	margin-left: 15px;
+}
+.avata span{
+	text-transform: uppercase ;
+	margin-top: 7px;
+	color: #e8663c;
+	font-family: bebasneue;
+	font-size: 13px;
+	margin-left: 15px;
+}
+footer{
+	background-color:  #e8663c ;
+	margin-top: 50px;
+	padding: 40px 36px ;
+	height: auto;
+}
+.footer_colum{
+	float: left;
+	width: 265px;
+}
+.footer_colum h3{
+	text-transform: uppercase; 
+	font-family: bebasneue;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+.footer_colum p{
+	
+	color: #fff;
+	font-family: bebasneue;
+}
+.footer_reco{
+	height: auto;
+}
